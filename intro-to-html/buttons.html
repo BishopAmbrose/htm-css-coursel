@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <title>Beautiful buttons</title>
+    <head>
+<style>
+    .row-buttons {
+        display: block;
+        border: 1px;
+        margin: 10px;
+    }
+
+.ambrose-button {
+    border-radius: 2px;
+    margin: 10px;
+    background-color:red;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-width: 2px blue;
+    margin-top: 20px;
+    transition: 0.15s;
+}
+
+.ambrose-button:hover {
+    opacity: 0.7;
+    padding: 5px 10px;
+}
+
+
+    .milton-button {
+        border-color: blue;
+        border-radius: 2px;
+        border-style: solid;
+        border-width: 1px blue;
+        color: blue;
+        padding: 9px 15px;
+        margin-right:10px;
+        cursor: pointer;
+        transition: background-color 0.5s, color 0.5s, padding 0.5s;
+    }
+    .milton-button:hover {
+        background-color: blue;
+        color: white;
+        padding: 20px 40px;
+
+    }
+    .milton-button:active {
+        opacity: 0.5;
+    }
+
+    .andrew-button {
+        background-color: blue;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 35px;
+        cursor: pointer;
+        transition: color 1s;
+        border-width: 2px solid red;
+        transition: background-color 1s, padding 1s, color 1s;
+
+
+    }
+    .andrew-button:hover{
+        background-color: grey;
+        padding: 20px 30px;
+        color: blue;
+
+    }
+.andrew-button:active {
+    background-color: blue;
+    opacity: 0.5;
+}
+
+.heading-title {
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial;
+    color: brown;
+    text-decoration: underline;
+
+}
+
+
+
+</style>
+
+    </head>
+    <body>
+        <p class="heading-title"> 
+           <a href="https://www.yahoo.com/">MY BUTTON PRACTICE </a> 
+
+        </p>
+       
+        
+        
+            <buttons class="ambrose-button">AMBROSE</buttons>
+            <buttons class="milton-button">MILTON</buttons>
+            <buttons class="andrew-button">ANDREW</buttons>
+        
+    </body>
+</html>

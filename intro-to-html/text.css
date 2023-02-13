@@ -1,0 +1,39 @@
+
+    <style>
+        p{
+            font-family: Roboto;
+            margin: 0;
+        }
+.video-title{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    width: 350px;
+    line-height: 25px;
+    margin-bottom: 20px
+
+}
+.video-stats, .video-author, .video-story {
+    margin-bottom: 20px;
+    color: rgb(95, 87, 87);
+}
+.video-story {
+    width: 350px;
+    margin-bottom: 50px ;
+}
+.shop-link {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 15px 25px;
+    text-align: center;
+
+}
+.shopping-link:hover {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+    
+}
+
+    </style>
